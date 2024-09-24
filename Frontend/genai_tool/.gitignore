@@ -3,8 +3,8 @@
 # dependencies
 /node_modules
 
-/.env.development
-/.env.production
+# /.env.development
+# /.env.production
 /package-lock.json
 /.pnp
 .pnp.js
