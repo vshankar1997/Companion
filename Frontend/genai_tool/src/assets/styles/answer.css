@@ -1,0 +1,116 @@
+.answer-wrapper h1,
+.answer-wrapper h2,
+.answer-wrapper h3,
+.answer-wrapper h4,
+.answer-wrapper h5,
+.answer-wrapper h6 {
+    line-height: 1.5;
+}
+
+.answer-wrapper .css-l4k81j-MuiTypography-root,
+.answer-wrapper .MuiTypography-root {
+    white-space: inherit !important;
+}
+
+.answer-wrapper h1 {
+    font-size: 20px !important;
+    margin: 5px 0px;
+}
+
+.answer-wrapper h2 {
+    font-size: 18px !important;
+    margin: 3px 0px;
+}
+
+.answer-wrapper h3 {
+    font-size: 16px !important;
+    margin: 2px 0px;
+}
+
+.answer-wrapper h4 {
+    font-size: 14px !important;
+    margin: 0px 0px;
+}
+
+.answer-wrapper h5 {
+    font-size: 12px !important;
+    margin: 5px 0px 0px 0px;
+}
+
+.answer-wrapper h5.font-12 {
+  font-size: 0.9rem !important;
+}
+
+.answer-wrapper h6 {
+    font-size: 10px !important;
+    margin: 5px 0px 0px 0px;
+}
+
+.answer-wrapper ul {
+    margin: 0px;
+}
+
+.source-block {
+    white-space: normal;
+}
+
+.answer-border td,
+.answer-border th {
+    border: 1px solid #999;
+    padding: 5px;
+    margin: 0px;
+    border-radius: 2px;
+}
+
+@keyframes stream {
+    0% {
+      transform: translateX(-100%);
+    }
+    100% {
+      transform: translateX(100%);
+    }
+  }
+  
+  @keyframes blink {
+    0%, 50% {
+      /* opacity: 1; */
+      transform: scale(0);
+    }
+    51%, 100% {
+      /* opacity: 0; */
+      transform: scale(1.2);
+    }
+  }
+  
+  .typing-indicator {
+    display: inline;
+    overflow: hidden;
+    position: absolute;
+    left: auto;
+    top: -3px;
+  }
+  
+  .data-stream {
+    display: inline-block;
+    white-space: nowrap;
+  }
+  
+  .dot {
+    width: 10px;
+    height: 10px;
+    background-color: var(--primary-color); /* or any color you prefer */
+    border-radius: 50%;
+    display: inline-block;
+    animation: blink 0.5s infinite;
+    animation-delay: calc(var(--delay) * 0.2s);
+    margin: 0 4px;
+  }
+  
+  
+.source-content {
+  width: 100%;
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+}

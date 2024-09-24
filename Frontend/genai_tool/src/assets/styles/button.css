@@ -1,0 +1,39 @@
+button {
+    text-transform: capitalize;
+    border-radius: var(--btn-spacing, 8px);
+    padding: var(--btn-spacing, 8px);
+    cursor: pointer !important;
+}
+
+.btn-primary {
+    background: var(--primary-color) !important;
+}
+
+.btn-secondary {
+    background: var(--text-secondary) !important;
+}
+
+.btn-danger {
+    background: var(--color-danger) !important;
+}
+
+.btn-warning {
+    background: var(--color-danger) !important;
+}
+
+.btn-info {
+    background: var(--color-info) !important;
+}
+
+.btn-success {
+    background: var(--color-success) !important;
+}
+
+button:disabled {
+    background: var(--elevation-outlined, #E0E0E0) !important;
+    cursor: not-allowed !important;
+}
+
+button:hover {
+    opacity: 0.65;
+}

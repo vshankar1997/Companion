@@ -1,0 +1,178 @@
+.uploaded-docs {
+  border: 1px solid var(--primary-color);
+  border-radius: 5px;
+  background-color: transparent;
+  padding: 0px 10px;
+}
+
+.list-ellipse {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  width: 300px;
+  display: inline-block;
+}
+
+.section-summary-option {
+  background: #fff;
+  border-radius: 16px;
+  padding: 15px;
+}
+
+.ml-80 {
+  margin-left: 80px;
+}
+
+.checkbox-container-row1 {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 10px;
+}
+
+.checkbox-container-row2 {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 10px;
+  padding-top: 20px;
+}
+
+.checkbox-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+  border: 1px solid var(--primary-color);
+  border-radius: 6px;
+  cursor: pointer;
+  color: var(--primary-color);
+}
+
+.checkbox-button input {
+  display: none;
+}
+
+.checkbox-button.checked {
+  background: var(--primary-color);
+  color: white;
+}
+
+.checkbox-button.disabled {
+  cursor: not-allowed;
+  color: #ccc;
+  border: 1px solid #ccc;
+}
+
+.file-prompt {
+  bottom: 0px;
+}
+
+.summary-option {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: block;
+  padding: 5px;
+}
+
+.btn-back {
+  position: absolute;
+  top: 125px;
+  left: 8%;
+}
+
+.btn-back button {
+  background-color: transparent !important;
+}
+
+.btn-new-prompt {
+  position: absolute;
+  top: 12px;
+  right: 15px;
+}
+
+.btn-new-prompt button {
+  text-transform: math-auto;
+  border-radius: 8px;
+  background: var(--primary-color);
+  color: #fff;
+}
+
+.btn-new-prompt button:hover {
+  text-transform: math-auto;
+  border-radius: 8px;
+  background: var(--primary-color);
+  color: #fff;
+  opacity: 0.8;
+}
+
+.devider-spacing {
+  margin: 20px 0px;
+}
+
+.upload-doc-prompt {
+  width: 90%;
+  margin-left: 5%;
+  margin-bottom: 10px;
+  font-size: 26px;
+}
+
+.image-response {
+  width: auto;
+  height: auto;
+  max-width: 100%;
+  max-height: 450px;
+}
+
+.image-caption {
+  width: 100%;
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  font-size: 0.9rem;
+}
+
+.image-caption-modal {
+  width: 100%;
+  font-size: 0.9rem;
+  text-align: justify;
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-line-clamp: 4;
+  -webkit-box-orient: vertical;
+  font-size: 0.9rem;
+}
+
+.image-expand {
+  background: rgba(46, 60, 73, 0.88);
+    border-radius: 4px;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    width: 35px;
+    height: 35px;
+    display: block;
+    position: absolute;
+    left: 7px;
+    bottom: 15px;
+    text-align: center;
+    cursor: pointer;
+    opacity: 0.8;
+}
+
+.image-expand:hover {
+    opacity: 1;
+}
+
+.image-expand .image-expand-icon {
+  color: #fff !important;
+  margin-top: 5px;
+}
+
+.btn-img-rating {
+  background:#0062c314;
+  padding: 15px;
+  border-radius: 8px;
+}
+
+.btn-img-rating .icon-right {
+  left: 40px;
+}

@@ -1,0 +1,15 @@
+body {
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+}
+
+html,
+body {
+  height: 100vh;
+}
+
+p,
+span {
+  font-size: 0.9rem;
+  line-height: 1.5;
+}

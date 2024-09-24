@@ -1,0 +1,9 @@
+__pycache__/
+*.pyc
+*.log
+*.jar
+*.ipynb
+*.sqlite3
+*.env
+*.env_main
+*okta_middleware*

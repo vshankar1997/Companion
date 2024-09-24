@@ -1,0 +1,239 @@
+.custom-placeholder::placeholder {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.custom-placeholder {
+  font-size: 18px;
+  font-weight: bold;
+  border-radius: 100px;
+}
+
+.custom-placeholder .MuiInputBase-root {
+  border-radius: 100px;
+}
+
+.custom-placeholder .MuiInputBase-root button:disabled {
+  background-color: transparent !important;
+}
+.custom-placeholder .MuiInputBase-root:hover {
+  border: 1px solid #cbe1f3;
+}
+
+.upload-doc-wrapper-before {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 60vh;
+  text-align: center;
+}
+
+.upload-doc-wrapper-after {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 55vh;
+  text-align: center;
+}
+
+.btn-upload {
+  padding: 0px !important;
+  text-transform: lowercase !important;
+  display: contents !important;
+  text-decoration: underline !important;
+}
+
+.upload-info-wrapper {
+  position: relative;
+  width: 60%;
+  padding-left: 20%;
+}
+
+.upload-info {
+  text-align: center;
+}
+
+.upload-doc-container {
+  /* background: rgba(234, 236, 233, 0.5); */
+  background: rgba(107, 206, 230, 0.8) 50%;
+  /* background: rgb(133 209 227 / 80%) 50%; */
+  border-radius: 100%;
+}
+
+.upload-doc-container:hover {
+  /* background: rgba(234, 236, 233, 0.5); */
+  background: rgb(133 209 227 / 80%) 50%;
+  border-radius: 100%;
+}
+
+.upload-doc {
+  border-radius: 100%;
+  text-align: center;
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  background: #fff;
+  margin-left: 25px;
+  margin-top: 25px;
+}
+
+.cursor-pointer {
+  cursor: pointer;
+}
+
+.prompt-devider {
+  position: absolute;
+  bottom: 45px;
+}
+
+.css-1d3z3hw-MuiOutlinedInput-notchedOutline {
+  border: none;
+  border-color: #fff !important;
+}
+
+.loading-width {
+  width: 500px;
+}
+
+.pdf-list {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  width: 80%;
+  font-size: 80%;
+}
+
+.pdf-list .MuiLinearProgress-bar {
+  background-color: #cc00ff !important;
+  height: 10px;
+}
+
+.upload-progressbar {
+  margin-top: 50px;
+  width: 70%;
+  margin-left: 15%;
+}
+
+.upload-progressbar .progressbar-text .MuiStepLabel-label {
+  margin-top: -42px;
+  font-size: 80%;
+}
+
+span.inactive-step {
+  color: #999 !important;
+}
+
+.btn-copy,
+.btn-regenerate button {
+  color: #444 !important;
+  border: none;
+  border-radius: 50%;
+  background: transparent;
+  cursor: pointer;
+  text-transform: math-auto !important;
+  font-weight: 400 !important;
+  box-shadow: none;
+  border-radius: 3px;
+}
+
+.btn-copy:hover,
+.btn-regenerate button:hover {
+  font-weight: 500 !important;
+  background: none !important;
+  box-shadow: none;
+}
+
+.files-upload-success {
+  font-size: 16px;
+  right: 15px;
+  top: -15px;
+  position: absolute;
+}
+
+.upload-info-files {
+  position: absolute;
+  top: 20px;
+  left: 5%;
+  width: 90%;
+}
+
+.qa-section {
+  overflow: "auto";
+  overflow-x: "hidden";
+}
+
+.like-dislike button {
+  border: none;
+  background: transparent;
+  padding: 0px;
+  color: #444;
+  cursor: pointer;
+  padding-left: 4px;
+}
+
+.like-dislike {
+  border: none;
+  border-radius: 50%;
+  padding: 7px 9px;
+  flex: 1;
+  text-align: start;
+}
+
+.upload-icon svg {
+  transform: rotate(270deg);
+}
+
+.rating-checks label {
+  font-size: 12px;
+  padding: 5px 10px;
+  border-radius: 100px;
+  margin: 0px 10px 10px 0px;
+}
+
+.doc-list {
+  margin-right: 35px;
+  margin-bottom: 15px;
+  overflow-x: hidden;
+  text-overflow: ellipsis;
+  position: fixed;
+  top: 80px;
+  right: 0px;
+  background: #fff;
+  border-radius: 10px;
+  z-index: 999;
+  width: 55%;
+  text-wrap: nowrap;
+}
+
+.upload-section.doc-list {
+  background: transparent
+}
+
+.file-prompt-wrapper .doc-list {
+  width: 65%;
+}
+
+.mt-20 {
+  margin-top: 20px;
+}
+
+.answer-border {
+  border: 1px solid var(--elevation-outlined, #E0E0E0);
+}
+
+.answer-wrapper-outer::before {
+  background-color: transparent !important;
+}
+
+.collection-dropdown {
+  position: absolute;
+  bottom: 0px;
+}
+
+.mr-2 {
+  margin-right: 20px;
+}
+
+.img-wrapper {
+  min-height: 275px;
+}

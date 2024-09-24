@@ -1,0 +1,36 @@
+.devider-color {
+  border: 1px solid var(--primary-color) !important;
+  margin: 2% 10% !important;
+  width: 80%;
+}
+
+.venn-diagram-top-text {
+  width: 250px;
+  position: absolute;
+  background: #fff;
+  border-radius: 16px;
+  top: -25px;
+  left: 37%;
+}
+
+.email-section {
+  display: inline;
+  width: 70%;
+}
+
+.button-section {
+  display: inline;
+  width: 70%;
+}
+
+.button-section button {
+  text-transform: capitalize;
+}
+
+.login-section-right {
+  width: 100%;
+}
+
+.email-section input {
+  padding: 15px;
+}

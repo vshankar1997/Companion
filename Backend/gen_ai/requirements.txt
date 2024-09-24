@@ -1,0 +1,20 @@
+Django==4.2.7
+django-cors-headers
+django-crontab
+django-environ
+django-tastypie            
+langchain
+openai
+spacy
+tiktoken
+pymilvus
+pymongo
+boto3
+semantic-text-splitter
+amazon-textract-prettyprinter
+XlsxWriter
+langfuse
+flashrank==0.1.69
+pymupdf
+Pillow
+# python -m spacy download en_core_web_sm -> need to be ran separately.

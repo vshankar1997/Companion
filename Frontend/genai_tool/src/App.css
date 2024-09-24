@@ -1,0 +1,488 @@
+:root {
+  --primary-color: #0062c3;
+  --secondary-color: #d3eef2;
+  --ternary-color: #f2f9c3;
+  --color-danger: #d60f26;
+  --color-info: #4B4CAB;
+  --color-success: #1B6B32;
+  --color-warning: #d85214;
+  --light-secondary: #e1f4f7;
+  --sec-background: #d3eef2;
+  --text-primary: #1c2732;
+  --text-secondary: #3c4e5e;
+  --btn-spacing: 8px;
+  --sidebar-background: #2E3C49;
+  --elevation-outlined: #E0E0E0;
+}
+
+@import "../src/assets/styles/element.css";
+@import "../src/assets/styles/button.css";
+@import "../src/assets/styles/answer.css";
+
+.app-footer {
+  position: fixed;
+  bottom: 0px;
+  padding-left: 38%;
+  margin: 20px;
+}
+
+.text-right {
+  text-align: right;
+}
+
+.main-bg {
+  display: flex;
+  /* background: radial-gradient(circle at top right,
+      #d7f0e8 1%,
+      #f4c6fc 22%,
+      transparent 55%),
+    radial-gradient(circle at left, #f6fc93 22%, #d7f0e8 50%),
+    radial-gradient(circle at bottom left, transparent 29%, #d7f0e8 65%); */
+  background: radial-gradient(circle at top right, rgba(107, 206, 235, 0.8) 0%, rgba(107, 206, 235, 0.4) 100%),
+    radial-gradient(circle at 50% 50%, #5DB3F8 23.39%, rgba(93, 179, 248, 0.5) 100%);
+  background-blend-mode: normal, normal, normal;
+}
+
+.main-bg-single {
+  display: flex;
+  /* background: radial-gradient(circle at top right,
+      #d7f0e8 1%,
+      #f5a2f5 15%,
+      transparent 70%),
+    radial-gradient(circle at bottom left, rgb(238, 245, 110) 30%, #d7f0e8 45%),
+    radial-gradient(circle at bottom left, transparent 29%, #d7f0e8 65%); */
+  background: radial-gradient(circle at top right, rgba(107, 206, 235, 0.8) 0%, rgba(107, 206, 235, 0.4) 100%),
+    radial-gradient(circle at 50% 50%, #5DB3F8 23.39%, rgba(93, 179, 248, 0.5) 100%);
+
+  background-blend-mode: normal, normal, normal;
+}
+
+.main-bg-linear {
+  /* background: var(--sec-background); */
+  background: #fff;
+  display: flex;
+}
+
+.main-bg-linear .sidebar {
+  /* background: var(--light-secondary); */
+}
+
+.main-content {
+  flex: 1;
+  padding: 0px
+  /* padding: 20px 20px 0px 20px; */
+}
+
+.text-center {
+  text-align: center;
+}
+
+.align-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.btn-rounded {
+  border-radius: 100px !important;
+}
+
+.w150 {
+  width: 150px;
+}
+
+.learn-more {
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.main-logo {
+  cursor: pointer;
+}
+
+.text-blue,
+.text-primary {
+  color: var(--primary-color) !important;
+}
+
+.mt-0 {
+  margin-top: 0px;
+}
+
+.m-0 {
+  margin: 0px;
+}
+
+.d-block {
+  display: block !important;
+}
+
+.mt-3 {
+  margin-top: 30px !important;
+}
+
+.mt-2 {
+  margin-top: 20px !important;
+}
+
+.mt-4 {
+  margin-top: 40px !important;
+}
+
+.mt-1 {
+  margin-top: 10px !important;
+}
+
+.mb-0 {
+  margin-bottom: 0px !important;
+}
+
+a {
+  color: var(--primary-color);
+}
+
+.small {
+  font-size: 70%;
+}
+
+.text-small {
+  font-size: 80%;
+}
+
+.text-muted {
+  color: #6c757d !important;
+}
+
+.prompt-footer {
+  display: flex;
+  align-items: center;
+  margin-top: 5px;
+}
+
+.text-success {
+  color: green;
+}
+
+.text-danger {
+  color: red;
+}
+
+.text-left {
+  text-align: left;
+}
+
+.d-flex {
+  display: flex;
+}
+
+.font-14 {
+  font-size: 14px !important;
+}
+
+.font-20 {
+  font-size: 20px !important;
+}
+
+.font-16 {
+  font-size: 16px !important;
+}
+
+.answer-font p {
+  font-size: 0.9rem !important;
+  line-height: 1.5 !important;
+  font-weight: 500 !important;
+  display: inline;
+}
+
+.answer-font-faq p {
+  font-size: 0.9rem !important;
+  line-height: 1.5 !important;
+  font-weight: 500 !important;
+}
+
+.source-prompt p {
+  font-weight: 400 !important;
+}
+
+fieldset.MuiOutlinedInput-notchedOutline {
+  border: none;
+}
+
+.d-none {
+  display: none !important;
+}
+
+.copyableCard {
+  background: rgb(255, 255, 255, 0.8) !important;
+  border-radius: 8px;
+  text-align: justify !important;
+  min-width: 375px
+}
+
+
+.feedback-card {
+  /* background: #fff; */
+  background: rgb(255, 255, 255, 0.6) !important;
+  border-radius: 8px;
+  padding: 15px;
+  border: 1px solid var(--elevation-outlined);
+}
+
+.btn-dotted {
+  border: 1px solid #70757A !important;
+  border-radius: 8px !important;
+  border-style: dotted !important;
+  text-transform: capitalize !important;
+  padding: 10px;
+  margin: 10px 10px 10px 0px;
+}
+
+.tag-name {
+  padding-right: 10px;
+  display: inline-block;
+}
+
+.tag-info {
+  font-size: 16px !important;
+  position: absolute;
+  left: 3px;
+  top: 3px;
+  opacity: 0.8;
+  border-right: 1px solid #ccc;
+  padding-right: 3px;
+}
+
+.feedback-textbox {
+  border: none;
+  border-radius: 10px;
+  padding: 15px;
+  background: rgba(112, 117, 122, 0.10);
+  font: inherit;
+  letter-spacing: inherit;
+  width: 100%;
+}
+
+.icon-left {
+  position: absolute;
+  left: 17px;
+  top: -15px;
+}
+
+.icon-right {
+  position: absolute;
+  left: 36px;
+  top: -15px;
+}
+
+.large {
+  font-size: 105%;
+}
+
+.f-500 {
+  font-weight: 500;
+}
+
+.bold {
+  font-weight: 600;
+}
+
+.modal-close {
+  float: right;
+  cursor: pointer;
+  color: #777;
+}
+
+.pt-0 {
+  padding-top: 0px !important;
+}
+
+.pb-0 {
+  padding-bottom: 0px !important;
+}
+
+.pt-2 {
+  padding-top: 2px !important;
+}
+
+.pb-2 {
+  padding-bottom: 2px !important;
+}
+
+.database-label {
+  background-color: #ffffff80;
+  border-radius: 100px;
+  display: block;
+  padding: 8px;
+  width: 100px;
+  margin: 5px 55px;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.database-label-chat {
+  background-color: var(--light-secondary);
+  border-radius: 100px;
+  color: var(--primary-color);
+  display: block;
+  padding: 8px;
+  width: 100px;
+  margin: 5px 55px;
+  font-weight: 500;
+}
+
+.text-secondary {
+  color: #0029ff99;
+}
+
+.btn-primary {
+  text-transform: capitalize !important;
+}
+
+.modal-title {
+  font-size: 110%;
+  line-height: 1.5rem;
+  margin-bottom: 8px;
+  font-weight: 700;
+  margin: 0px 0px 15px 0px;
+  text-transform: capitalize;
+  padding-bottom: 10px;
+}
+
+.btn-logout {
+  justify-content: center;
+  cursor: pointer !important;
+}
+
+.btn-send:disabled {
+  background-color: #fff !important;
+}
+
+/* WebKit (Chrome, Safari) */
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #999;
+  border-radius: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: #fff;
+  border-radius: 6px;
+}
+
+.text-grey {
+  color: #ccc;
+}
+
+.bg-white {
+  background: #fff !important;
+}
+
+.ellipse-text {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  width: 62%;
+  display: block;
+  font-size: 80%;
+}
+
+.file-list {
+  padding: 10px 0px;
+}
+
+.footnote-link {
+  font-size: 70%;
+  bottom: 4px;
+  position: relative;
+  left: -3px;
+  text-transform: uppercase;
+}
+
+.file-list:hover {
+  background: #f7f7f7;
+}
+
+.ml-15 {
+  margin-left: 15px;
+}
+
+.source-link {
+  color: var(--primary-color) !important;
+}
+
+.ml-20 {
+  margin-left: 20px;
+}
+
+.chat-title {
+  padding: 12px;
+  padding-left: 10px;
+  border-width: 1px;
+  border-style: solid;
+  border-color: #a7a9ab4d;
+
+}
+
+.chat-title h6 span {
+  font-size: 16px;
+}
+
+.chat-title h6 span:first-child {
+  font-weight: 600;
+  color: var(--primary-color);
+}
+
+.chat-title h6 span.float-right span:first-child {
+  font-weight: 500;
+  color: #444 !important;
+}
+
+.float-right {
+  float: right;
+}
+
+.header-text {
+  margin: 15px 10px;
+}
+
+.header-text-inner {
+  position: absolute;
+  top: 18px;
+}
+
+.search-input {
+  padding: 0px !important;
+  border-radius: 7px;
+  border: 1px solid #ccc !important;
+}
+
+.chat-bu-name {
+  background-color: #efefef;
+  border-radius: 50px;
+  padding: 5px 10px;
+  text-transform:capitalize;
+  cursor: pointer;
+  font-size: 14px !important;
+}
+
+.search-input input {
+  padding: 5px 10px !important;
+}
+.bu-select-dropdown .MuiSelect-select {
+  padding: 5px !important;
+}
+/* Firefox */
+/* Note: Firefox supports scrollbar customization in a different way */
+/* You can use scrollbar-color and scrollbar-width properties */
+
+/* Set the color of the thumb and track */
+/* The first value is the thumb color, and the second value is the track color */
+scrollbar-color: #4caf50 #f1f1f1;
+
+/* Set the width of the scrollbar */
+scrollbar-width: thin;
+/* thin, auto, or none */

@@ -1,0 +1,80 @@
+.btn-logout {
+  justify-content: center;
+  cursor: pointer !important;
+}
+
+.sidebar-bottom:hover {
+  background: #ededed;
+}
+
+.sidebar-bottom {
+  padding: 0px !important;
+}
+
+.sidebar-footer {
+  position: fixed;
+  bottom: 5px;
+  left: 1%;
+}
+
+.sidebar-top {
+  position: fixed !important;
+  top: 0px;
+  left: 1%;
+}
+
+.sidebar {
+  flex: 0 0 5%;
+  background: #2E3C49;
+  /* background: linear-gradient(180deg, #e0f3f5, #f2f9c3, #f6fbbc); */
+  text-align: center;
+  min-height: 100vh;
+}
+
+.list-border {
+  border-top: 1px solid var(--secondary-color);
+}
+
+.divider-border {
+  border-color: var(--secondary-color) !important;
+}
+
+.sidebar-item {
+  /* position: absolute; */
+  /* bottom: 80px; */
+  flex: 0 0 10%;
+  color: #fff;
+}
+
+.sidebar-text span {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  color: #fff;
+}
+
+.sidebar-expanded .MuiDrawer-paper {
+  background: #2E3C49;
+  /* background: linear-gradient(125deg, #d4f1f1, #fcfedd, #fff); */
+  overflow: hidden;
+}
+
+.sidebar-item-body {
+  flex: 1;
+  flex: 0 0 67%;
+  height: 67%;
+}
+.item-body-inner {
+  overflow: overlay;
+  height: 98%;
+  width: 100%;
+}
+
+.sidebar-item-body .active {
+  background: var(--primary-color);
+}
+
+.sidebar-item {
+  font-weight: 200;
+  color: #ccc !important;
+}
